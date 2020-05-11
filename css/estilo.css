@@ -1,0 +1,535 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: Amaranth, sans-serif;
+    text-decoration: none;
+}
+
+
+/* Edicion de la pagina */
+body { }
+
+aside#menu-cortina {
+     width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79);
+}
+
+aside#menu-cortina a#abrir { }
+aside#menu-cortina a#abrir i { }
+aside#menu-cortina a#abrir:hover { }
+aside#menu-cortina a#abrir:hover i { }
+
+aside#menu-cortina a#cerrar { }
+aside#menu-cortina a#cerrar i { }
+aside#menu-cortina a#cerrar:hover { }
+aside#menu-cortina a#cerrar:hover i { }
+
+aside#menu-cortina nav#menu-principal-movil { }
+aside#menu-cortina nav#menu-principal-movil a { } 
+aside#menu-cortina nav#menu-principal-movil a:hover { } 
+
+aside#menu-contactame nav {
+     width: 100%;                /* 100% / <= 300px */
+    height: 100%;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -100%;                    /* left / right */
+    z-index: 99991;
+    
+    background: rgba(65, 9, 9, 0.79);
+} 
+aside#menu-contactame nav a { }
+aside#menu-contactame nav a i { }
+aside#menu-contactame nav a:hover { }
+aside#menu-contactame nav a:hover i { }
+
+header {
+    width: 100%;
+    height: 110px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99990;
+    background: #fff;
+}
+header article {
+    width: 90%;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+header article a#logo {
+    width: 150px;
+    height: 100px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    
+    transition: all 0.2s ease-in;
+}
+header article a#logo:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header article a#logo img {
+    width: 100%;
+    height: auto;
+}
+
+header nav#menu-principal {
+    width: 100px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 45px 40px;
+}
+header nav#menu-principal a {
+    color: #000;
+    padding: 0 0 0 10px;
+    
+    transition: all 0.2s ease-in;
+}
+header nav#menu-principal a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+header nav#menu-idioma {
+    width: 100px;
+    height: 20px;
+    display: block;
+    position: relative;
+    float: right;
+    margin: 45px auto;
+}
+header nav#menu-idioma a {
+    color: #000;
+    padding: 0 0 0 10px;
+    
+    transition: all 0.2s ease-in;
+}
+header nav#menu-idioma a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+header nav#menu-idioma span {
+    color: #000;
+    padding: 0 0 0 10px;
+    font-family: Amaranth, sans-serif;
+}
+
+/*Estilo Inicio*/
+main { 
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 100px auto 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fila-banner {
+    width: 100%;
+    height: 400px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+}
+main section#fila-banner article {
+    width: 90%;
+    height: 400px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-banner article img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    top: 100px;
+}
+
+main section#fila-ilustracion-libre { 
+    width: 100%;
+    height: 1300px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+}
+main section#fila-ilustracion-libre article {
+    width: 90%;
+    height: 1300px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#fila-ilustracion-libre article figure {
+    width: 100%;
+    height: 630px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 25px auto;
+}
+main section#fila-ilustracion-libre article figure div {
+    width: 500px;
+    height: 620px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 34px;
+}
+main section#fila-ilustracion-libre article figure div.imagen-libre {
+    width: 500px;
+    height: 620px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 34px;
+}
+main section#fila-ilustracion-libre article figure div.imagen-libre a {
+    width: 500px;
+    height: 620px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    
+    transition: all 0.2s ease-in;
+}
+main section#fila-ilustracion-libre article figure div.imagen-libre a img { 
+    width: 100%;
+    height: auto;
+}
+main section#fila-ilustracion-libre article figure div.imagen-libre a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+main section#fila-ilustracion-libre article figure div h2 {
+    text-align: right;
+    font-weight: 700;
+    margin: 350px 0 70px 0;
+}
+main section#fila-ilustracion-libre article figure div p {
+    text-align: right;
+    font-size: 1.55em;
+}
+
+main section#shop {
+    width: 100%;
+    height: 1050px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+}
+main section#shop article#titulo-shop {
+    width: 100%;
+    height: 70px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#shop article#titulo-shop a {
+    width: 110px;
+    height: 50px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    color: #000;
+    font-size: 1.55em;
+    
+    transition: all 0.2s ease-in;
+}
+main section#shop article#titulo-shop a span {
+    padding: 0 0 0 20px;
+}
+main section#shop article#titulo-shop a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+main section#shop article#imagen-shop {
+    width: 100%;
+    height: 1050px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#shop article#imagen-shop a {
+    width: 33.3%;
+    height: 480px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0;
+    
+    transition: all 0.2s ease-in;
+}
+main section#shop article#imagen-shop a img {
+    width: 100%;
+    height: auto;
+}
+main section#shop article#imagen-shop a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+main section#carboncillo {
+    width: 100%;
+    height: 1300px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+}
+main section#carboncillo article {
+    width: 90%;
+    height: 1300px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#carboncillo article figure {
+    width: 100%;
+    height: 630px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 25px auto;
+}
+main section#carboncillo article figure div {
+    width: 500px;
+    height: 620px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 34px;
+}
+main section#carboncillo article figure div.imagen-carboncillo {
+    width: 500px;
+    height: 620px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    padding: 20px 34px;
+}
+main section#carboncillo article figure div h2 {
+    text-align: left;
+    font-weight: 700;
+    margin: 300px 0 70px 0;
+}
+main section#carboncillo article figure div p {
+    text-align: left;
+    font-size: 1.55em;
+}
+main section#carboncillo article figure div.imagen-carboncillo a {
+    width: 500px;
+    height: 620px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    
+    transition: all 0.2s ease-in;
+}
+main section#carboncillo article figure div.imagen-carboncillo a img {
+    width: 100%;
+    height: auto;
+}
+main section#carboncillo article figure div.imagen-carboncillo a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+main section#redes-ic {
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0;
+}
+main section#redes-ic article {
+    width: 90%;
+    height: 200px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+}
+main section#redes-ic article nav#redes-ini {
+    width: 550px;
+    height: 100px;
+    display: block;
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    top: 15px;
+}
+main section#redes-ic article nav#redes-ini a {
+    font-size: 5em;
+    padding: 0 60px;
+    
+    transition: all 0.2s ease-in;
+}
+main section#redes-ic article nav#redes-ini a i {
+    color: #000;
+}
+main section#redes-ic article nav#redes-ini a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+
+/*Footer*/
+footer {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0;
+    float: none;
+    position: relative;
+    background: #fff;
+}
+footer article {
+    width: 90%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+footer article a {
+    width: 150px;
+    height: 100px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 35px auto;
+    
+    transition: all 0.2s ease-in;
+}
+footer article a img {
+    width: 100%;
+    height: auto;
+}
+footer article a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+footer article nav#portal {
+    width: 100px;
+    height: 200px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 100px;
+}
+footer article nav#portal p {
+    font-weight: 700;
+}
+footer article nav#portal a {
+    width: 100px;
+    height: 33px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0;
+    color: #000;
+    
+    transition: all 0.2s ease-in;
+}
+footer article nav#portal a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+footer article nav#contacto-footer {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 100px;
+}
+footer article nav#contacto-footer p {
+    font-weight: 700;
+}
+footer article nav#contacto-footer a {
+    width: 200px;
+    height: 33px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 10px 0 0 0;
+    color: #000;
+    
+    transition: all 0.2s ease-in;
+}
+footer article nav#contacto-footer a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
+
+footer article nav#redes {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 0 0 74px;
+}
+footer article nav#redes p {
+    font-weight: 700;
+}
+footer article nav#redes a {
+    width: 200px;
+    height: 33px;
+    display: block;
+    position: relative;
+    float: left;
+    margin: 10px 0 0 0;
+    color: #000;
+    
+    transition: all 0.2s ease-in;
+}
+footer article nav#redes a:hover {
+    opacity: 0.5;
+    transition: all 0.2s ease-in;
+}
